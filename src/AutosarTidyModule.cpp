@@ -9,6 +9,7 @@
 #include "../ClangTidy.h"
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "Rulea716Check.h"
 #include "Rulea723Check.h"
 #include "Rulea951Check.h"
 #include "Rulem1804Check.h"
@@ -22,6 +23,8 @@ namespace autosar {
 class AutosarModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<Rulea716Check>(
+        "autosar-ruleA7-1-6");
     CheckFactories.registerCheck<Rulea723Check>(
         "autosar-ruleA7-2-3");
     CheckFactories.registerCheck<Rulea951Check>("autosar-ruleA9-5-1");
