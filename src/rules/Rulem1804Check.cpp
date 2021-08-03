@@ -30,6 +30,8 @@ void Rulem1804Check::check(const MatchFinder::MatchResult &Result) {
     auto start = callExpr->getBeginLoc();
     diag(start,
          "The time handling functions of library <ctime> shall not be used.");
+    diag(start, "Facilities from <chrono> shall be used instead.",
+         DiagnosticIDs::Note);
   }
 }
 
