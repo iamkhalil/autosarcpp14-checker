@@ -8,6 +8,7 @@ add_clang_library(clangTidyAutosarModule
   Rulea1671Check.cpp
   Rulea951Check.cpp
   Rulem1804Check.cpp
+  Rulem1805Check.cpp
   Rulem4102Check.cpp
 
   LINK_LIBS

@@ -12,6 +12,7 @@
 #include "Rulea1671Check.h"
 #include "Rulea951Check.h"
 #include "Rulem1804Check.h"
+#include "Rulem1805Check.h"
 #include "Rulem4102Check.h"
 
 namespace clang {
@@ -26,6 +27,8 @@ public:
     CheckFactories.registerCheck<Rulea951Check>("autosar-ruleA9-5-1");
     CheckFactories.registerCheck<Rulem1804Check>(
         "autosar-ruleM18-0-4");
+    CheckFactories.registerCheck<Rulem1805Check>(
+        "autosar-ruleM18-0-5");
     CheckFactories.registerCheck<Rulem4102Check>(
         "autosar-ruleM4-10-2");
   }
