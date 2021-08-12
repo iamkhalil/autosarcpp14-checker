@@ -5,6 +5,7 @@ set(LLVM_LINK_COMPONENTS
 
 add_clang_library(clangTidyAutosarModule
   AutosarTidyModule.cpp
+  Rulea1671Check.cpp
   Rulea716Check.cpp
   Rulea723Check.cpp
   Rulea951Check.cpp
