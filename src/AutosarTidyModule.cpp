@@ -10,6 +10,7 @@
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
 #include "Rulea1671Check.h"
+#include "Rulea1803Check.h"
 #include "Rulea716Check.h"
 #include "Rulea723Check.h"
 #include "Rulea951Check.h"
@@ -28,6 +29,8 @@ public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<Rulea1671Check>(
         "autosar-RuleA16-7-1");
+    CheckFactories.registerCheck<Rulea1803Check>(
+        "autosar-RuleA18-0-3");
     CheckFactories.registerCheck<Rulem1631Check>(
         "autosar-RuleM16-3-1");
     CheckFactories.registerCheck<Rulem1632Check>(
