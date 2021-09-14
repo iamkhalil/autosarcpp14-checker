@@ -15,6 +15,17 @@ add_clang_library(clangTidyAutosarModule
   Rulem1804Check.cpp
   Rulem1805Check.cpp
   Rulem4102Check.cpp
+  Rulea042Check.cpp
+  Rulea1101Check.cpp
+  Rulea1241Check.cpp
+  Rulea1323Check.cpp
+  Rulea1621Check.cpp
+  Rulea2133Check.cpp
+  Rulea312Check.cpp
+  Rulea313Check.cpp
+  Rulea314Check.cpp
+  Rulea391Check.cpp
+  Rulem1101Check.cpp
 
   LINK_LIBS
   clangTidy
