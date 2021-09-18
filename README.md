@@ -2,7 +2,7 @@
 
 ## Description 
 
-This project tries to create a code checker for the [AUTOSAR C++14 coding guidelines](https://www.autosar.org/fileadmin/user_upload/standards/adaptive/17-03/AUTOSAR_RS_CPP14Guidelines.pdf) using the LLVM/Clang tooling infrastructure.
+This project tries to create a code checker for the [AUTOSAR C++14 coding guidelines](https://www.autosar.org/fileadmin/user_upload/standards/adaptive/18-10/AUTOSAR_RS_CPP14Guidelines.pdf) using the LLVM/Clang tooling infrastructure.
 
 ## Requirements
 
