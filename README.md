@@ -11,7 +11,7 @@ This project tries to create a code checker for the [AUTOSAR C++14 coding guidel
 - Ninja
 - GCC >= 5.1
 - Python >= 3.6 
-- Build Clang and Clang-tidy from source. (simply run `./build.sh`) 
+- Build LLVM, Clang and Clang-tidy from source. (simply run `./build.sh`) 
 - All files are created, compiled and tested on Ubuntu 20.04 LTS.
 
 ## Usage
